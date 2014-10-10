@@ -1,0 +1,43 @@
+.thx_btn_add  span {
+	background: url(../../../../images/buttons_sprite.png) no-repeat 0px -440px!important;
+}
+
+html[dir=rtl] .thx_btn_add  span {
+	background-position: right -440px!important;
+}
+
+.thx_btn_remove  span{
+	background: url(../../../../images/buttons_sprite.png) no-repeat  0px -480px!important;
+}
+
+html[dir=rtl] .thx_btn_remove  span {
+	background-position: right -480px!important;
+}
+
+.thx_list_lable {
+	background: url(../../../../images/thanks/rose-small.png) no-repeat 0px top!important;
+}
+
+html[dir=rtl] .thx_list_lable {
+	background-position: right top!important;
+}
+
+.thx_list {
+	clear: both;
+	padding: 10px 0 5px 0;
+	border-bottom: 0;
+}
+
+.thx_list_lable {
+	padding-left: 18px;
+	display: inline;
+}
+
+html[dir=rtl] .thx_list_lable {
+	padding-left: inherit;
+	padding-right: 18px;
+}
+
+.hide {
+	display: none;
+}
